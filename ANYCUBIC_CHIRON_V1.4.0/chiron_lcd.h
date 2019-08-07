@@ -58,7 +58,6 @@ inline void lcd_buttons_update() {}
 	void write_to_lcd_i(int value);
 
 	// eeprom_index
-	extern float NEW_zprobe_zoffset; // Anycubic Chiron add
 	extern int z_values_index;
 	extern int z_values_size;
 
