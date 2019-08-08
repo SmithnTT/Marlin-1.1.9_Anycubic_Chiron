@@ -38,8 +38,8 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 #define CONFIGURATION_H_VERSION 010109
-#define MSG_MY_VERSION "V1.4.0_TMC2208"
-#define STRING_CONFIG_H_AUTHOR "(DKoch, Germany)" // Who made the changes.
+#define MSG_MY_VERSION "V1.4.1 - XYZ-TMC2208 E-DRV8825"
+#define STRING_CONFIG_H_AUTHOR "(DKoch, SmithnTT)" // Who made the changes.
 
 
 //===========================================================================
@@ -821,7 +821,7 @@
 // The number of probes to perform at each point.
 //   Set to 2 for a fast/slow probe, using the second probe result.
 //   Set to 3 or more for slow probes, averaging the results.
-#define MULTIPLE_PROBING 2
+#define MULTIPLE_PROBING 4
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
