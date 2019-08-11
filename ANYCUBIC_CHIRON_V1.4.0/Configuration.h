@@ -388,9 +388,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Anycubic Chiron
-  #define DEFAULT_Kp 20
-  #define DEFAULT_Ki 0.5
-  #define DEFAULT_Kd 106.55
+  #define DEFAULT_Kp 17.17
+  #define DEFAULT_Ki 1.24
+  #define DEFAULT_Kd 59.35
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -439,9 +439,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 97.10
-  #define DEFAULT_bedKi 1.41
-  #define DEFAULT_bedKd 1675.16
+  #define DEFAULT_bedKp 145.16
+  #define DEFAULT_bedKi 26.50
+  #define DEFAULT_bedKd 198.81
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -613,14 +613,14 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 100, 400, 405 }		// Anycubic Chiron Default
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.40, 100.09, 397.03, 418.60 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.80, 100.09, 400.07, 418.60 }
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 100, 100, 20, 80 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 10, 50 }
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
@@ -649,7 +649,7 @@
 // User
 #define DEFAULT_ACCELERATION          1800    // X, Y, Z and E acceleration for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_TRAVEL_ACCELERATION   2400    // X, Y, Z acceleration for travel (non printing) moves
 
 
 
@@ -1292,7 +1292,7 @@
 
 // Preheat Constants (ABS)
 #define PREHEAT_2_TEMP_HOTEND 230
-#define PREHEAT_2_TEMP_BED    100
+#define PREHEAT_2_TEMP_BED    105
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 /**
