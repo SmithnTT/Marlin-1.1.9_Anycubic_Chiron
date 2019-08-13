@@ -6,7 +6,9 @@ Config in Source dir is TMC2208 in XYZ and DRV8825 on E
 Othe configs see Config dir.
 - Default
 - TMC2208
-- TMC2208_with_direction_change_by_cabel
+- TMC2208_with_direction_change_by_cable
+
+All the credits to [dkoch83](https://github.com/dkoch83/Marlin-1.1.9_Anycubic_Chiron)(made Chiron adjusts to Marlin 1.1.9) and [Marlin team](https://github.com/MarlinFirmware/Marlin). I just changed some things to work for me and continuous testing to work with some modifications.
 
 
 
