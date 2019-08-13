@@ -1,7 +1,7 @@
 # Marlin-1.1.9 vor Anycubic Chiron
 
 
-Config in Source dir is TMC2208
+Config in Source dir is TMC2208 in XYZ and DRV8825 on E
 
 Othe configs see Config dir.
 - Default
