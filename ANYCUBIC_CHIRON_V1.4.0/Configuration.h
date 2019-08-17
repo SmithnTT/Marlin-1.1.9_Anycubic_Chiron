@@ -613,7 +613,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 100, 400, 405 }		// Anycubic Chiron Default
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.80, 100.09, 400.07, 418.60 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.80, 100.09, 400.07, 821.43 }
 
 /**
  * Default Max Feed Rate (mm/s)
